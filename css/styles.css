@@ -1,0 +1,54 @@
+body{
+	font-size: 18px;
+	color: #000000;
+	background-color: #F7F7F7;
+	font-family: 'Titillium Web', sans-serif;
+}
+.div-padding-nil{
+	width: max-width;
+	border-radius: 0px;
+	padding: 0px;
+	border: 0px;
+	margin:0px; 
+
+}
+
+.navbar {
+
+	width: max-width;
+	border-radius: 0px;
+	padding: 0px;
+	border: 0px;
+	margin:0px; 
+	background-color: #ff8000;
+	height: 180px;
+}
+.logo{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-color: #ffffff;
+	height: 150px;
+	width: 150px;
+}
+#header-txt{
+	color: #ffffff;
+	font-size: 4em;
+	padding-top: 50px;
+}
+.li{
+	padding-top: 18px;
+	padding-left: 80px;
+	padding-right: 80px;	
+}
+.cbody{
+	width: max-width;
+	border-radius: 7px;
+	padding: 20px;
+	border: 0px;
+	margin:30px; 
+	background-color: #fffbb0;
+	height: 300px;
+
+
+}
