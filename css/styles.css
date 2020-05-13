@@ -33,8 +33,12 @@ body{
 }
 #header-txt{
 	color: #ffffff;
+	float:top;
 	font-size: 4em;
 	padding-top: 50px;
+	padding-bottom: 40px;
+	margin-bottom:40px;
+
 }
 .li{
 	padding-top: 18px;
@@ -51,4 +55,26 @@ body{
 	height: 300px;
 
 
+}
+.txt-under-header {
+	
+	padding-top: 100px;
+	padding-left: 30px;
+	
+	
+}
+.footer{
+	padding: 20px;
+	margin: 0px;
+	color: #ffffff;
+	background-color: #ff8000;
+	height: 100px;
+	width: max-width;
+}
+.footertxt{
+	padding-top: 0px;
+	padding-left: 40px;
+	margin: 0px;
+	color: #ffffff;
+	font-size: 1.2em;
 }

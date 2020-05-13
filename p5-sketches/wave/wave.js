@@ -1,7 +1,10 @@
 function setup() {
-    createCanvas(displayWidth-30, displayHeight-200);
+	var cnv = createCanvas(windowWidth, windowHeight);
+  	cnv.style('display', 'block');
+    cnv.parent('wavesketch');
     background('#ff8000');
     noStroke();
+
     
 }
 let t=0;
@@ -9,6 +12,9 @@ let k=0.01;
 let a=150;
 let w=6.28/10;
 let dt=0.01;
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function draw() {
   background('white');

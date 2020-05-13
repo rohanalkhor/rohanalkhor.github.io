@@ -15,24 +15,33 @@
 	<meta http-equiv="X-UA-Compitable" content="IE=edge">
 	<link rel="stylesheet" href="css/styles.css">
 	<meta name="view-port" content="width=device-width, initial-scale=1">
+
 		
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+	<link rel = "icon" href = "logo.png" type = "image/x-icon"> 
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<script language="javascript" type="text/javascript" src="p5-sketches/p5.min.js"></script>
+	<script language="javascript" type="text/javascript" src="p5-sketches/wave/wave.js"></script>
+	
 
-	<title>Math For Fun</title>
+	<title>CompMath | Math and Computer Science Projects</title>
+	<meta name="description" content="Math and Computer Science Projects and Simulations">
+	<meta name="robots" content="index, follow" />
 </head>
 <body>
 	<header>
 		<div class="container-fluid div-padding-nil">
 			<nav class="navbar navbar-light bg-light">
 		  		<a class="navbar-brand" href="index.html">
-		    	<img src="logo.png" width="150" height="150" class="d-inline-block align-top logo " alt="Logo" href="index.html"> 
+		    	<img src="logo.png" width="150" height="150" class="d-inline-block align-top logo " alt="Logo" href="index.html" style="float:left;"> 
 		  		</a>
-		  		<a id="header-txt" class="navbar-brand">MATH FOR FUN 	</a>
+		  		<div style=" float:left;">
+			  		<a id="header-txt" class="navbar-brand">CompMath</a>
+			  		<p class="txt-under-header">Math and Computer Science Projects</p>
+		  		</div>
 		  		
 			</nav>
 		<div>
@@ -41,28 +50,28 @@
 			<nav id="1" class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff; height:50px;">
 			  
 			  <div class="collapse navbar-collapse " id="navbarNavDropdown">
-			    <ol class="navbar-nav float-right">
+			    <ol class="navbar-nav float-right" style="list-style: none; color:blue;">
 			      <li class="nav-item active li">
-			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 			      </li>
 			      
 			      <li class="nav-item dropdown li">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Algorithms
-			        </a>
+			        <div class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Algorithms v
+			        </div>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Algo1</a>
-			          <a class="dropdown-item" href="#">Algo2</a>
-			          <a class="dropdown-item" href="#">Algo3</a>
+			          <a class="dropdown-item" href="#">-</a>
+			          <a class="dropdown-item" href="#">-</a>
+			          <a class="dropdown-item" href="#">-</a>
 			        </div>
 			      </li>
 			      <li class="nav-item dropdown li">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Simulations
-			        </a>
+			        <div class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Math Snacks
+			        </div>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			          <a class="dropdown-item" href="unitCircle.html">Unit-Circle</a>
-			          <a class="dropdown-item" href="#">Simu2</a>
+			          
 			          
 			        </div>
 			      </li>
@@ -74,15 +83,11 @@
 			</nav>
 		</div>
 	</header>
-	<!-- load waves canvas -->
-	<div class="container-fluid">
-		<script language="javascript" type="text/javascript" src="p5-sketches/p5.min.js"></script>
-	  	<script language="javascript" type="text/javascript" src="p5-sketches/wave/wave.js"></script>
-	</div>
+	
 	<!-- rescent tab-->
 	<div class="container-fluid" >
-  		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:20px; border-radius:7px; background-color: #fffbb0;">
-    		<div class="navbar-brand" >Rescent</div>
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:20px; border-radius:7px; background-color: #fffbb0; ">
+    		<div class="navbar-brand" >Recent</div>
   		</nav>
 	</div>
 
@@ -105,10 +110,21 @@
 	  		</div>
 		</div>
 	</div>
-	
+
+	<!-- load waves canvas -->
+	<div id="wavesketch" >
+	</div>
 
 	<!--footer -->
-	
+	<footer class="container-fluid footer">
+		<br>
+		<div class="footertxt">
+			© 2020 Rohan Kumar
+		</div>
+
+		
+
+	</footer>
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
