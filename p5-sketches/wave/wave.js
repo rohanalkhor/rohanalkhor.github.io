@@ -1,5 +1,5 @@
 function setup() {
-	var cnv = createCanvas(windowWidth, windowHeight);
+	var cnv = createCanvas(windowWidth, windowHeight/2);
   	cnv.style('display', 'block');
     cnv.parent('wavesketch');
     background('#ff8000');
@@ -21,7 +21,7 @@ function draw() {
   fill(120+0.5+mouseX*255/width,120+0.5*mouseY*255/width,120+0.5*(mouseX+mouseY)*255/(2*width));
     
   for(let i=0;i<width;i+=15){
-     circle(i,300-a*sin(k*i-w*t),10);
+     circle(i,windowHeight/4-a*sin(k*i-w*t),10);
   }
   
   t+=dt;
